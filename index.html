@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ac9ccd212f.js" crossorigin="anonymous"></script>
+    <title>Session 5 Bootstrap</title>
+</head>
+<body>
+    <div style="background-color:rgb(246, 236, 255)">
+    <header>
+        <div class="d-flex bd-highlight mb-3">
+            <div class="p-2 bd-highlight mt-3 ms-3"><i class="fa-brands fa-trello fa-2x text-primary"></i></div>
+            <div class="me-auto mt-2 p-2 bd-highlight fw-bold fs-2"><a href="https://trello.com/home" class="text-decoration-none text-dark">Trello</a></div>
+            <div class="p-2 bd-highlight pt-3 mt-2"><a href="https://trello.com/login" class="text-decoration-none">Log in</a></div>
+            <div class="p-2 bd-highlight me-3 fw-bold mt-2"><a href="https://trello.com/signup" class="text-decoration-none btn btn-primary">Sign up</a></div>
+        </div>
+    </header>
+
+    <div class="container ">
+        <div class="row pt-5">
+            <div class="p-2" style="width: 40%; margin: auto;">
+                <h1>Trello helps teams move work forward.</h1>
+                <p h5>Collaborate, manage projects, and reach new productivity peaks. From high rises to the home office, the way your team works is unique—accomplish it all with Trello.</p>
+                <div class="mb-3 d-flex p-2" style="width: 90%; margin: auto;">
+                    <label for="email" class="form-label"></label>
+                    <input type="email" class="form-control mx-2" id="email" placeholder="Email">
+                    <a href="https://trello.com/signup" class="text-decoration-none btn btn-primary p-2" style="width: 90%; margin: auto;">Sign up-it's free!</a>
+                </div>
+            </div>
+            <div class="p-2" style="width: 40%; margin: auto;">
+                <img src="https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/hero/6a3ccd8e5c9a0e8ebea4235d12da6b24/hero.png" style="width: 70%;">
+            </div>
+        </div>
+    </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+
+    <div class="container">
+        <div class="container">
+            <div class="row">
+                <div style="text-align: center;">
+                    <h1>It's more than work. It's a way of working together.</h1>
+                    <p h3 class="p-2 mx-auto w-75" style="font-weight: 600;">Start with a Trello board, lists, and cards. Customize and expand with more features as your teamwork grows. 
+                    Manage projects, organize tasks, and build team spirit—all in one place.</p>
+                    <br>
+                    <a href="https://trello.com/signup" class="text-decoration-none btn btn-outline-primary px-3 py-2 fs-3">Start doing <i class="fa-solid fa-arrow-right-long"></i></a>
+                    <br>
+                    <br>
+                    <br>
+                    <img src="https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/product/89d378b845766a8f0c48e955336266f8/board.png" style="width: 85%;">
+                    <br>
+                    <br>
+                    <p class="h4" style="font-weight: 600;">Join over 1,000,000 teams worldwide that are using Trello to get more done.</p>
+                    <div class="d-inline-flex align-items-center flex-center ms-5">
+                    <div><img style="width: 150px;" src="data:image/png;base64,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"></div>
+                    <div><img style="width: 150px;" src="data:image/png;base64,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"></div>
+                    <div><img style="width: 150px;" src="data:image/png;base64,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"></div>
+                    <div><img style="width: 150px;" src="data:image/png;base64,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"></div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <div style="width: 45%; font-weight: 400; text-align: left;">
+                    <h1>Features to help your team succeed</h1>
+                    <p>Powering a productive team means using a powerful tool (and plenty of snacks). From meetings and projects to events and goal setting, Trello's intuitive features give any team the ability to quickly set up and customize workflows for just about anything.</p>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            
+            <div class="row">
+                <div class="col">
+                    <img src="https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/features/5f90e4a913ac52092f2ac7ff308c45c4/view.svg">
+                </div>
+                <div class="col">
+                    <p class="fw-bold">CHOOSE A VIEW</p>
+                    <h1>The board is just the beginning</h1>
+                    <p class="text-secondary" style="width: 75%;">Lists and cards are the building blocks of organizing work on a Trello board. Grow from there with task assignments, timelines, productivity metrics, calendars, and more.</p>
+                    <h3>Learn more</h3>
+                    <p>You and your team can start up a Trello board in seconds. With the ability to view board data from many different angles, the entire team stays up-to-date in the way that suits them best:</p>
+                    <ul>
+                        <li>Use a Timeline view for project planning</li>
+                        <li>Calendar helps with time management</li>
+                        <li>Table view connects work across boards</li>
+                        <li>See board stats with Dashboard, and more!</li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+
+            <div class="row">
+                <div class="col">
+                    <p class="fw-bold">DIVE INTO THE DETAILS</p>
+                    <h1>Cards contain everything you need</h1>
+                    <p class="text-secondary" style="width: 75%;">Trello cards are your portal to more organized work—where every single part of your task can be managed, tracked, and shared with teammates. Open any card to uncover an ecosystem of checklists, due dates, attachments, conversations, and more.</p>
+                    <h3>Learn more</h3>
+                    <p>Spin up a Trello card with a click, then uncover everything it can hold. Break down bigger card tasks into steps with file attachment previews, reminders, checklists and comments—emoji reactions included! Plus, gain powerful perspective by seeing all cards by list and status at the board level.</p>
+                    <br>
+                    <p>Your team can:</p>
+                    <ul>
+                        <li>Manage deadlines</li>
+                        <li>Provide and track feedback</li>
+                        <li>Assign tasks and hand off work</li>
+                        <li>Connect work across apps</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <img src="https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/features/35366a300daac434fa02bc3ef83d8132/automation.png" style="width: 95%;">
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+
+            <div class="row">
+                <div class="col">
+                    <img src="https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/features/5f90e4a913ac52092f2ac7ff308c45c4/view.svg">
+                </div>
+                <div class="col">
+                    <p class="fw-bold">MEET YOUR NEW BUTLER</p>
+                    <h1>No-code automation</h1>
+                    <p class="text-secondary" style="width: 75%;">Let the robots do the work—so your team can focus on work that matters. With Trello’s built-in automation, Butler, reduce the number of tedious tasks (and clicks) on your project board by harnessing the power of automation across your entire team.</p>
+                    <h3>Learn more</h3>
+                    <p>Butler uses natural language commands to automate just about any task in Trello:</p>
+                    <ul>
+                        <li>Automate common actions like moving lists</li>
+                        <li>Create custom buttons to build process quickly</li>
+                        <li>Surface upcoming deadlines to the team</li>
+                        <li>Schedule teammate assignments, and more!</li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+
+            <div class="row">
+                <div class="col">
+                    <p class="fw-bold">POWER-UPS</p>
+                    <h1>Integrate top work tools</h1>
+                    <p class="text-secondary" style="width: 75%;">Easily connect the apps your team already uses into your Trello workflow, or add a Power-Up that helps fine-tune one specific need. With hundreds of Power-Ups available, your team's workflow wishes are covered.</p>
+                    <h3>Learn more</h3>
+                    <p>From Reporting to Custom Fields to your beloved software integrations—we've got functionalities, your favorites, and more!</p>
+                    <br>
+                    <p>Such as:</p>
+                    <ul>
+                        <li>Confluence</li>
+                        <li>Slack</li>
+                        <li>Dropbox</li>
+                        <li>Google Drive</li>
+                        <li>Evernote</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <img src="https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/features/7a11db312701af17abefa8e691cf124a/power-ups.png" style="width: 70%;">
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+        </div>    
+    </div>
+
+    <div class="container bg-dark" style="height: 1px;">  
+        <br>  
+       <div class="row mx-auto">
+            <div class="col-2">
+                <img src="https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/check-out/50d8061c0434175f65976c3afbb8209c/tag.svg">
+            </div>
+            <div class="col-4">
+                <h1>See our pricing</h1>
+                <p>Whether you're a team of 2 or 2,000, there's a Trello tailor-made for your organization.</p>
+                <a href="https://trello.com/pricing" class="text-decoration-none btn btn-outline-primary px-4">Trello pricing</a>
+            </div>
+            <div class="col-2">
+                <img src="https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/check-out/0efeb9f898969b67a9b80dca30183b9d/compass.svg">
+            </div>
+            <div class="col-4">
+                <h1>Take a Trello tour</h1>
+                <p>Explore the world of boards and beyond in Trello. Dive deeper into our most popular features.</p>
+                <a href="https://trello.com/tour" class="text-decoration-none btn btn-outline-primary px-4">Tour trello</a>
+            </div>
+        </div>
+        <br>
+        <div class="bg-dark" style="height: 1px;"></div>
+        <br>
+        <br>
+        <div class="row" style="background-color:rgb(221, 253, 255)">
+          <div class="col-4">
+            <img class="mt-5" src="data:image/png;base64,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">
+            <p class="fs-6 mt-1 mx-auto">INDUSTRY</p>
+            <p class="fs-6 fw-bolder mx-auto mt-1">eCommerce</p>
+          </div>
+          <div class="col-6">
+            <h3 class="my-5 p-4" style="text-align: left;"><i class="fa-solid fa-quote-left fa-2x"></i> <br> Everyone loves it; it has democratized our finance function. In some ways Trello shattered hierarchy and brought us together.</h3>
+            <p class="fs-4 mt-1 mx-auto" style="text-align: right;">BHARATH SUNDAR</p>
+            <p class="fs-4 mt-1 me-4" style="text-align: right;">Finance, eBay</p>
+          </div>
+          <br>
+          <div class="bg-dark" style="height: 5px;"></div>
+          <br>
+          <div class="col-3">
+             <button type="button" class="btn btn-dark"><i class="fa-solid fa-arrow-left-long"></i></button>
+          </div>
+          <div class="col-2">
+              <button type="button" class="btn btn-dark"><i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+        </div>
+        <br>
+        <br>
+        <div class="ms-5 ps-5 py-5" style="background-color:rgb(0, 71, 129)">
+            <div class="mt-5 ms-5 ps-5" style="width: 80%;">
+                <h1 class="px-5 mx-auto text-light" style="text-align: center;">Sign up and get started with Trello today. A world of productive teamwork awaits!</h1>
+                    <br>
+                    <br>
+                <div class="mb-3 d-flex p-2" style="width: 60%; margin: auto;">
+                    <label for="email" class="form-label"></label>
+                    <input type="email" class="form-control mx-2" id="email" placeholder="Email">
+                    <a href="https://trello.com/signup" class="text-decoration-none btn btn-primary p-2" style="width: 40%; margin: auto;">Sign up</a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <div class="d-flex justify-content-center bg-light">
+            <p class="align-self-center pe-3">Trello also works great on your smaller screen.</p>
+            <button type="button" class="btn btn-dark mx-2"><img src="https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/apps/0b6d7bcb7ee4c84ef5e8141269925e9a/apple.svg"></button>
+            <button type="button" class="btn btn-dark"><img src="https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/apps/c3a2a289499157072145f1bd73d7610d/google.svg"></button>
+        </div>
+        <br>
+        <br>
+
+            <select class="form-select mx-auto" style="width: 20%;" id="floatingSelect" aria-label="Floating label select example">
+            <option selected>English (US)</option>
+            <br>
+            <br>
+            </select>
+        <div class="row mt-5">
+            <div class="d-flex justify-content-center">
+                 <a href="https://trello.com/templates" class="text-decoration-underline text-secondary mx-2">Templates</a>
+                 <a href="https://trello.com/pricing"  class="text-decoration-underline text-secondary mx-2">Pricing</a>
+                 <a href="https://trello.com/platforms"  class="text-decoration-underline text-secondary mx-2">Apps</a>
+                 <a href="https://www.atlassian.com/company/careers/trello"  class="text-decoration-underline text-secondary mx-2">Jobs</a>
+                 <a href="https://blog.trello.com/"  class="text-decoration-underline text-secondary mx-2">Blog</a>
+                 <a href="https://developer.atlassian.com/cloud/trello/"  class="text-decoration-underline text-secondary mx-2">Developers</a>
+                 <a href="https://trello.com/about"  class="text-decoration-underline text-secondary mx-2">About</a>
+                 <a href="https://help.trello.com/"  class="text-decoration-underline text-secondary mx-2">Help</a>
+                 <a href="https://www.atlassian.com/legal/cloud-terms-of-service"  class="text-decoration-underline text-secondary mx-2">Legal</a>
+                 <a href="#"  class="text-decoration-underline text-secondary mx-2">Cookie Settings</a>
+                 <a href="https://www.atlassian.com/legal/privacy-policy"  class="text-decoration-underline text-secondary mx-2">Privacy</a>
+                 <br>
+                </div>
+                <br>
+                <img class="mx-auto" src="https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/6cdbcb3dcf82bba860f1768d184161ee/atlassian-logo-gray-small.svg" style="width: 15%;">
+                <br><br>
+            <p class="text-center">© Copyright 2022. All rights reserved.</p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
